@@ -20,7 +20,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip --disable-pip-version-check install --no-index --only-binary=:all: --find-links wheels --require-hashes -r requirements.txt
+      - run: >-
+          python -m pip --disable-pip-version-check install --no-index --only-binary=:all: --find-links wheels --require-hashes -r requirements.txt
       - run: python -m unittest -v
       - run: python collector.py
         env:
