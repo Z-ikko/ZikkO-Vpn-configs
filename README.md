@@ -2,6 +2,12 @@
 
 <img src="docs/cover.png" alt="ZikkO VPN Configs" width="100%">
 
+<p>
+  <a href="https://t.me/VPNByZikkO"><img src="https://img.shields.io/badge/Telegram%20Channel-20242B?style=for-the-badge&amp;logo=telegram&amp;logoColor=FFAC32" alt="Open the ZikkO Telegram channel"></a>
+  &nbsp;
+  <a href="https://t.me/ZikkOVpnBot"><img src="https://img.shields.io/badge/Launch%20ZikkO%20Bot-FFAC32?style=for-the-badge&amp;logo=telegram&amp;logoColor=15171B" alt="Launch the ZikkO Telegram bot"></a>
+</p>
+
 **1,500 configurations · Refreshed every two hours**
 
 [Get a subscription](#subscriptions) &nbsp; / &nbsp; [Download a client](#clients) &nbsp; / &nbsp; [Connect your device](#setup)
