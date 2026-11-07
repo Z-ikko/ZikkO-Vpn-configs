@@ -1,26 +1,87 @@
-# ZikkO Vpn configs
+<div align="center">
 
-کانفیگ‌های تازه از متن کانال زیکو و فایل‌های TXT کانال proxy_kafee. هر دو ساعت، دقیقهٔ ۱۷ به وقت UTC، آخرین ۱۵۰۰ ورودی با ترتیب تازه به قدیمی منتشر می‌شوند. تکراری‌ها مجازند. عنوان پروفایل هنگام افزودن ساب در کلاینت قابل تنظیم است. این فایل‌ها فهرست URI خام هستند و ادعای تست اتصال ندارند.
+<img src="docs/cover.png" alt="ZikkO VPN Configs" width="100%">
 
-| اشتراک | فایل |
-|---|---|
-| ZikkO Vpn configs • All | [ساب اصلی](sub/all.txt) |
-| ZikkO Vpn configs • 1 | [۱ تا ۳۰۰](sub/1.txt) |
-| ZikkO Vpn configs • 2 | [۳۰۱ تا ۶۰۰](sub/2.txt) |
-| ZikkO Vpn configs • 3 | [۶۰۱ تا ۹۰۰](sub/3.txt) |
-| ZikkO Vpn configs • 4 | [۹۰۱ تا ۱۲۰۰](sub/4.txt) |
-| ZikkO Vpn configs • 5 | [۱۲۰۱ تا ۱۵۰۰](sub/5.txt) |
+**1,500 configurations · Updated every 2 hours · Newest first**
 
-برای وارد کردن در کلاینت، لینک Raw را استفاده کنید. نصاب بعد از درخواست اولین اجرا هر شش آدرس Raw را نمایش می‌دهد. لینک‌ها پس از اولین اجرای سبز فعال می‌شوند.
+[Get a subscription](#subscriptions) &nbsp; / &nbsp; [Download a client](#clients) &nbsp; / &nbsp; [Connect your device](#setup)
 
-## راه‌اندازی ویندوز
+</div>
 
-۱. Python 3.11 یا جدیدتر با Python Launcher، Git for Windows و GitHub CLI را نصب کنید. فایل ZIP را کامل استخراج کنید. از my.telegram.org/apps مشخصات API تلگرام خود را بگیرید.
+## Subscriptions
 
-۲. پوشهٔ wheels را کنار فایل‌های دیگر نگه دارید. وابستگی‌های پایتون با بررسی SHA-256 از همین پوشه نصب می‌شوند. برای ورود به گیت‌هاب و تلگرام اتصال اینترنت لازم است. setup.cmd را اجرا کنید. با حساب گیت‌هابی وارد شوید که قرار است مالک مخزن عمومی ZikkO-Vpn-configs باشد. در ورود مرورگری GitHub CLI، دسترسی workflow برای ارسال فایل Actions لازم است. اگر push به همین دلیل رد شد، دستور gh auth refresh -h github.com -s workflow را اجرا کنید و نصاب را دوباره باز کنید.
+**Full Feed** gives you the entire collection. Copy this URL into your VPN client's subscription field:
 
-۳. مشخصات API و کد ورود تلگرام را محلی وارد کنید و کانال خودتان را از فهرست انتخاب کنید. هر کانفیگ این منبع ممکن است در مخزن عمومی منتشر شود. اکانت خواننده باید تاریخچه و فایل‌های هر دو منبع را ببیند. نصاب نشست را در حافظه می‌سازد و با ورودی استاندارد gh در GitHub Secrets ذخیره می‌کند. هیچ کد یا نشست تلگرامی را در چت یا فایل مخزن نگذارید.
+```text
+https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/all.txt
+```
 
-۴. پس از اجرای نصاب، Actions → Update ZikkO Vpn configs را باز کنید. انتشار محتوا و نشانگرهای دو کانال یک کامیت است. در خطای دریافت یا انتشار، آخرین کامیت منتشرشده معتبر می‌ماند. برای تکرار اجرای ناموفق از Run workflow استفاده کنید. اولین به‌روزرسانی از جدیدترین پست‌های دو منبع تا سقف ظرفیت یا پایان تاریخچه پیش می‌رود. فایل UTF-8 یا UTF-16 دارای BOM تا ۸ مگابایت پشتیبانی می‌شود. ویرایش پست‌های قبلاً خوانده‌شده ورودی جدید نیست.
+For a smaller download, choose one **300-profile pack**. Pack 01 starts with the newest entries. Each pack has a permanent address and refreshes as new profiles arrive.
 
-اگر دسترسی GitHub Actions برای نوشتن محدود شده، دسترسی workflow را در تنظیمات مخزن بررسی کنید. نگهداری اشتراک به روشن ماندن کامپیوتر شما وابسته نیست.
+| Subscription | Profiles | Direct URL |
+| :--- | :--- | :--- |
+| **Full Feed** | All 1,500 | [Full subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/all.txt) |
+| **Pack 01** | 1–300 | [Pack 01 subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/1.txt) |
+| **Pack 02** | 301–600 | [Pack 02 subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/2.txt) |
+| **Pack 03** | 601–900 | [Pack 03 subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/3.txt) |
+| **Pack 04** | 901–1200 | [Pack 04 subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/4.txt) |
+| **Pack 05** | 1201–1500 | [Pack 05 subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/5.txt) |
+
+On a phone, press and hold a subscription link and choose **Copy Link**. On a computer, right-click and choose **Copy link address**.
+
+## Clients
+
+| Device | App | Official download |
+| :--- | :--- | :--- |
+| Windows | **v2rayN** | [GitHub Releases](https://github.com/2dust/v2rayN/releases/latest) |
+| Android | **v2rayNG** | [GitHub Releases](https://github.com/2dust/v2rayNG/releases/latest) |
+| Android | **V2Box** | [Google Play](https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box) |
+| iPhone / iPad | **Streisand** | [App Store](https://apps.apple.com/app/id6450534064) |
+| iPhone / iPad | **V2Box** | [App Store](https://apps.apple.com/app/id6446814690) |
+
+## Setup
+
+Copy the **Full Feed** URL or a single pack above. Expand the instructions for your app.
+
+<details>
+<summary><strong>Windows · v2rayN</strong></summary>
+
+1. Open **Subscription group → Subscription group settings** and add a group.
+2. Enter `ZikkO` under **Remarks**, paste the URL into the address field, and save.
+3. In **Subscription group**, update the subscription. Select a server from the new group and set it as active.
+4. To route supported Windows apps through it, select **Set system proxy** in v2rayN.
+
+</details>
+
+<details>
+<summary><strong>Android · v2rayNG</strong></summary>
+
+1. Open the subscription groups screen and tap **+**.
+2. Name the group `ZikkO`, paste the URL, and save with the checkmark.
+3. Return to the server list, select the group, and use **Update subscription** in the menu.
+4. Select a server, tap the connect button, and approve the Android VPN request.
+
+</details>
+
+<details>
+<summary><strong>iPhone / iPad · Streisand</strong></summary>
+
+1. Copy the subscription URL, open Streisand, and tap **+ → Import from Clipboard**.
+2. Allow pasting if iOS asks. The subscription will appear in the profiles list.
+3. Open the subscription, refresh its profiles, and select a server.
+4. Tap the power button and allow iOS to add the VPN configuration when prompted.
+
+</details>
+
+<details>
+<summary><strong>Android or iPhone / iPad · V2Box</strong></summary>
+
+1. Open **Configs**, tap **+**, and choose **Add Subscription**.
+2. Enter `ZikkO` as the name, paste the URL, and save.
+3. Open the subscription and select a server. If the list is empty, refresh the subscription.
+4. Go to **Home** and use the connect control. Approve the VPN permission on your device.
+
+</details>
+
+Refresh the saved subscription in your client to pick up new entries. Individual connections can vary by network. [View the update history](https://github.com/Z-ikko/ZikkO-Vpn-configs/actions/workflows/update.yml).
+
