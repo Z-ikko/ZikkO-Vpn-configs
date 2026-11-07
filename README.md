@@ -18,24 +18,19 @@
 
 ## Subscriptions
 
-**Full Feed** gives you the entire collection. Copy this URL into your VPN client's subscription field:
+<a href="https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/all.txt"><img width="345" alt="Main subscription — all 1,500 configs" src="https://img.shields.io/badge/Main%20Subscription-1%2C500%20configs-FFAC32?style=for-the-badge&amp;labelColor=20242B"></a>
+
+Copy the full feed into your VPN client:
 
 ```text
 https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/all.txt
 ```
 
-For a smaller download, choose one **300-profile pack**. New configurations appear at the top of Pack 01. Each pack has a permanent address and refreshes as new profiles arrive.
+### 300-config packs
 
-| Subscription | Profiles | Direct URL |
-| :--- | :--- | :--- |
-| **Full Feed** | All 1,500 | [Full subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/all.txt) |
-| **Pack 01** | 1–300 | [Pack 01 subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/1.txt) |
-| **Pack 02** | 301–600 | [Pack 02 subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/2.txt) |
-| **Pack 03** | 601–900 | [Pack 03 subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/3.txt) |
-| **Pack 04** | 901–1200 | [Pack 04 subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/4.txt) |
-| **Pack 05** | 1201–1500 | [Pack 05 subscription](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/5.txt) |
+[![Pack 01](https://img.shields.io/badge/Pack%2001-252A32?style=for-the-badge)](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/1.txt) [![Pack 02](https://img.shields.io/badge/Pack%2002-252A32?style=for-the-badge)](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/2.txt) [![Pack 03](https://img.shields.io/badge/Pack%2003-252A32?style=for-the-badge)](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/3.txt) [![Pack 04](https://img.shields.io/badge/Pack%2004-252A32?style=for-the-badge)](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/4.txt) [![Pack 05](https://img.shields.io/badge/Pack%2005-252A32?style=for-the-badge)](https://raw.githubusercontent.com/Z-ikko/ZikkO-Vpn-configs/main/sub/5.txt) 
 
-On a phone, press and hold a subscription link and choose **Copy Link**. On a computer, right-click and choose **Copy link address**.
+Each pack contains 300 entries from the main subscription. Pack 01 has the latest additions. To copy a pack URL, press and hold its button on mobile or right-click it on desktop and choose **Copy link address**.
 
 ## Clients
 
@@ -55,7 +50,7 @@ GitHub links open the latest release. Choose the Windows package for your PC or 
 
 ## Setup
 
-Copy the **Full Feed** URL or a single pack above. Expand the instructions for your app.
+Copy the **Main Subscription** URL or a single pack above. Expand the instructions for your app.
 
 <details>
 <summary><strong>Windows · v2rayN</strong></summary>
