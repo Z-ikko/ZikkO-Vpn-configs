@@ -1,0 +1,48 @@
+name: Public site SEO audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/site-seo.yml']
+  deployment_status:
+permissions: {}
+jobs:
+  lighthouse:
+    if: github.event_name != 'deployment_status' || (github.event.deployment.environment == 'github-pages' && github.event.deployment_status.state == 'success')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.22.0'
+      - name: Check published pages with Lighthouse
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: |
+          npm install --prefix "$RUNNER_TEMP/audit" --no-audit --no-fund lighthouse@13.6.0
+          mkdir -p reports
+          for page in home free-config downloads; do
+            path="$page/"
+            if [ "$page" = home ]; then path=""; fi
+            url="https://z-ikko.github.io/ZikkO-Vpn-configs/$path"
+            "$RUNNER_TEMP/audit/node_modules/.bin/lighthouse" "$url" --only-categories=seo --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/$page.json" --quiet
+          done
+      - name: Summarize scores and flag failed checks
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          problems = []
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as summary:
+              for path in sorted(Path("reports").glob("*.json")):
+                  report = json.loads(path.read_text())
+                  category = report["categories"]["seo"]
+                  print(f"### {path.stem} — {round(category['score'] * 100)}/100", file=summary)
+                  for ref in category["auditRefs"]:
+                      audit = report["audits"][ref["id"]]
+                      if ref["weight"] and audit["score"] is not None and audit["score"] < 1:
+                          problems.append(audit["title"])
+                          print(f"- {audit['title']}", file=summary)
+          if problems:
+              raise SystemExit("See the job summary for failed SEO checks")
+          PY
