@@ -16,7 +16,7 @@ Get a free V2Ray config subscription for Android, iPhone or Windows. The ZikkO c
 
 [Free config list](https://z-ikko.github.io/ZikkO-Vpn-configs/free-config/) · [VPN client downloads for Windows, Android and iPhone](https://z-ikko.github.io/ZikkO-Vpn-configs/downloads/) · [زیکو وی پی ان | راهنمای فارسی و لینک ساب کانفیگ رایگان](https://z-ikko.github.io/ZikkO-Vpn-configs/)
 
-[Get a subscription](#subscriptions) &nbsp; / &nbsp; [Download a client](#clients) &nbsp; / &nbsp; [Connect your device](#setup)
+[Get a subscription](#subscriptions) &nbsp; / &nbsp; [Download a client](#clients) &nbsp; / &nbsp; [Connect your device](#setup) &nbsp; / &nbsp; [Share on Telegram](https://t.me/share/url?url=https%3A%2F%2Fgithub.com%2FZ-ikko%2FZikkO-Vpn-configs&text=%D8%B3%D8%A7%D8%A8%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D8%B2%DB%8C%DA%A9%D9%88%20%D8%B1%D8%A7%20%DB%8C%DA%A9%E2%80%8C%D8%A8%D8%A7%D8%B1%20%D8%A7%D8%B6%D8%A7%D9%81%D9%87%20%DA%A9%D9%86%20%D9%88%20%D8%A8%D8%B1%D8%A7%DB%8C%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%E2%80%8C%D9%87%D8%A7%DB%8C%20%D8%AA%D8%A7%D8%B2%D9%87%20Refresh%20%D8%A8%D8%B2%D9%86.%20%D8%AA%D8%A7%20%DB%B1%DB%B5%DB%B0%DB%B0%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%D8%8C%20%D9%BE%D9%86%D8%AC%20%D9%BE%DA%A9%20%DB%B3%DB%B0%DB%B0%D8%AA%D8%A7%DB%8C%DB%8C%20%D9%88%20%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%A7%D9%86%D8%AF%D8%B1%D9%88%DB%8C%D8%AF%D8%8C%20%D8%A2%DB%8C%D9%81%D9%88%D9%86%20%D9%88%20%D9%88%DB%8C%D9%86%D8%AF%D9%88%D8%B2.)
 
 </div>
 
