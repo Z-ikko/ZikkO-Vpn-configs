@@ -14,7 +14,7 @@
 
 Free V2Ray subscription links for Android, iPhone and Windows. Up to 1,500 configurations, refreshed every two hours.
 
-[راهنمای فارسی و لینک ساب کانفیگ رایگان زیکو](https://z-ikko.github.io/ZikkO-Vpn-configs/)
+[زیکو وی پی ان | راهنمای فارسی و لینک ساب کانفیگ رایگان](https://z-ikko.github.io/ZikkO-Vpn-configs/)
 
 [Get a subscription](#subscriptions) &nbsp; / &nbsp; [Download a client](#clients) &nbsp; / &nbsp; [Connect your device](#setup)
 
