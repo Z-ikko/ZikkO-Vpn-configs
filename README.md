@@ -3,6 +3,8 @@
 <img src="docs/cover.png" alt="ZikkO VPN Configs" width="100%">
 
 <p>
+  <a href="https://t.me/FreeConfigByZikkO1"><img src="https://img.shields.io/badge/Free%20Configs%20%26%20Proxies-20242B?style=for-the-badge&amp;logo=telegram&amp;logoColor=FFAC32" alt="Free Configs &amp; Proxies on Telegram"></a>
+  &nbsp;
   <a href="https://t.me/VPNByZikkO"><img src="https://img.shields.io/badge/Telegram%20Channel-20242B?style=for-the-badge&amp;logo=telegram&amp;logoColor=FFAC32" alt="Open the ZikkO Telegram channel"></a>
   &nbsp;
   <a href="https://t.me/ZikkOVpnBot"><img src="https://img.shields.io/badge/Launch%20ZikkO%20Bot-FFAC32?style=for-the-badge&amp;logo=telegram&amp;logoColor=15171B" alt="Launch the ZikkO Telegram bot"></a>
