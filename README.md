@@ -10,7 +10,11 @@
   <a href="https://t.me/ZikkOVpnBot"><img src="https://img.shields.io/badge/Launch%20ZikkO%20Bot-FFAC32?style=for-the-badge&amp;logo=telegram&amp;logoColor=15171B" alt="Launch the ZikkO Telegram bot"></a>
 </p>
 
-**1,500 configurations · Refreshed every two hours**
+# ZikkO VPN Configs
+
+Free V2Ray subscription links for Android, iPhone and Windows. Up to 1,500 configurations, refreshed every two hours.
+
+[راهنمای فارسی و لینک ساب کانفیگ رایگان زیکو](https://z-ikko.github.io/ZikkO-Vpn-configs/)
 
 [Get a subscription](#subscriptions) &nbsp; / &nbsp; [Download a client](#clients) &nbsp; / &nbsp; [Connect your device](#setup)
 
